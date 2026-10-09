@@ -25,3 +25,13 @@
 - find . -type f — только файлы
 - history — история команд
 - history | grep git — найти команды с git
+## Сеть и удалённые серверы
+- ssh user@host — подключиться к серверу
+- ssh user@host -p 2222 — подключиться на порт 2222
+- scp file.txt user@host:/path/ — скопировать файл на сервер
+- scp -r папка/ user@host:/path/ — скопировать папку
+- scp user@host:/path/file.txt . — скачать файл с сервера
+- wget URL — скачать файл из интернета
+- wget -O имя URL — скачать с новым именем
+- wget -c URL — продолжить прерванную загрузку
+- curl URL — получить данные по URL
